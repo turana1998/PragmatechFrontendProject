@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 70px;
+}
+
+header .navbar-brand {
+  font: normal bold 24px Mulish;
+  line-height: 30px;
+  color: #233348;
+}
+
+header .navbar-brand span {
+  color: white;
+  background-color: #458FF6;
+  margin-right: 12px;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+
+header .nav-link {
+  font: normal normal 18px Mulish;
+  line-height: 23px;
+  color: #1F1534;
+  margin-right: 40px;
+  border-bottom: 1px solid white;
+}
+
+header .nav-link:hover {
+  border-bottom: 1px solid #458FF6;
+}
+
+header .nav-link.active {
+  font-weight: bold;
+}
+
+header .item {
+  margin-top: 84px;
+}
+
+header .item h2 {
+  font: normal bold 48px Mulish;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+header .item p {
+  font: normal 300 21px Mulish;
+  line-height: 32px;
+  color: #7D7987;
+  margin-bottom: 45px;
+}
+
+header .item button {
+  outline: none;
+  border: 1px solid #458FF6;
+  cursor: pointer;
+  background: #458FF6;
+  border-radius: 55px;
+  color: #fff;
+  font: normal bold 18px Mulish;
+  line-height: 60px;
+  padding: 0px 40px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+header .item button:hover {
+  background-color: white;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+}
+
+header .left-side {
+  position: absolute;
+  left: 0;
+  top: 160px;
+}
+/*# sourceMappingURL=home.css.map */
